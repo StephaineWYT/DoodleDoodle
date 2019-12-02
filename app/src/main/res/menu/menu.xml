@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pen"
+        android:title="@string/pen" />
+
+    <item
+        android:id="@+id/eraser"
+        android:title="@string/eraser" />
+
+    <item
+        android:id="@+id/clear"
+        android:title="@string/clear" />
+
+    <item
+        android:id="@+id/save"
+        android:title="@string/save" />
+
+    <item android:title="@string/color">
+
+        <menu>
+            <!--定义子菜单 -->
+            <item
+                android:id="@+id/red"
+                android:title="@string/color_red" />
+
+            <item
+                android:id="@+id/green"
+                android:title="@string/color_green" />
+
+            <item
+                android:id="@+id/blue"
+                android:title="@string/color_blue" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/width">
+
+        <menu>
+            <item
+                android:id="@+id/width_1"
+                android:title="@string/width_5" />
+
+            <item
+                android:id="@+id/width_2"
+                android:title="@string/width_10" />
+
+            <item
+                android:id="@+id/width_3"
+                android:title="@string/width_15" />
+        </menu>
+    </item>
+
+    <item android:title="@string/eraserWidth">
+
+        <menu>
+            <item
+                android:id="@+id/eraserWidth_10"
+                android:title="@string/eraserWidth_10" />
+
+            <item
+                android:id="@+id/eraserWidth_40"
+                android:title="@string/eraserWidth_40" />
+
+            <item
+                android:id="@+id/eraserWidth_70"
+                android:title="@string/eraserWidth_70" />
+            <item
+                android:id="@+id/eraserWidth_100"
+                android:title="@string/eraserWidth_100" />
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Doodle</string>
+    <string name="pen">画</string>
+    <string name="eraser">擦</string>
+    <string name="clear">清除</string>
+    <string name="save">保存</string>
+    <string name="color">画笔颜色</string>
+    <string name="width">画笔宽度</string>
+    <string name="eraserWidth">橡皮擦宽度</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="width_5">5</string>
+    <string name="width_10">10</string>
+    <string name="width_15">15</string>
+    <string name="eraserWidth_10">10</string>
+    <string name="eraserWidth_40">40</string>
+    <string name="eraserWidth_70">70</string>
+    <string name="eraserWidth_100">100</string>
+</resources>
